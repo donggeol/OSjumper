@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/os_main_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#00639E"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/main_client_name_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/os_input_line"
+            android:hint="android"
+            android:paddingLeft="10dip"
+            android:textColor="#FFFFFF"
+            android:text="android"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="OSJumper Client name"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/main_server_host_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/os_input_line"
+            android:hint="211.189.127.185"
+            android:paddingLeft="10dip"
+            android:textColor="#FFFFFF"
+            android:text="172.16.190.1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="Server IP/Hostname"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/main_server_port_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/os_input_line"
+            android:hint="24800"
+            android:paddingLeft="10dip"
+            android:textColor="#FFFFFF"
+            android:text="9999"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="Server Port"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/main_my_phone_ip_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/os_input_line"
+            android:hint="127.118.122.163"
+            android:paddingLeft="10dip"
+            android:textColor="#FF0000"
+            android:enabled="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/main_my_phone_ip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="My Phone IP"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/main_receiver_phone_ip_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="30dip"
+            android:background="@drawable/os_input_line"
+            android:hint="127.118.122.163"
+            android:paddingLeft="10dip"
+            android:textColor="#FFFFFF"
+            android:text="112.108.39.250"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:text="Receiver Phone IP"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#55FFFFFF" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+        
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+        
+        <Button
+            android:id="@+id/main_voice_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_btn"
+            android:padding="10dip"
+            android:text="Voice Call"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+
+        <Button
+            android:id="@+id/main_call_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_btn"
+            android:padding="10dip"
+            android:text="Call"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+        
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#55FFFFFF" />
+    
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#55FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2" >
+        
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+        
+        <Button
+            android:id="@+id/main_connect_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_btn"
+            android:padding="10dip"
+            android:text="Connect"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+
+        <Button
+            android:id="@+id/main_disconnect_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_btn"
+            android:padding="10dip"
+            android:text="Disconnect"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+        
+        
+        <TextView
+            android:layout_width="1dip"
+            android:layout_height="fill_parent"
+            android:background="#55FFFFFF" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#55FFFFFF" />
+
+</LinearLayout>

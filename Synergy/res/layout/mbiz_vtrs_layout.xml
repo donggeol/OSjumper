@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|right"
+        android:padding="3dip" >
+        
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="START"
+            android:textColor="#FFFFFF"
+            android:textSize="15dip" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="3dip" >
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_left_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_microphone_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:background="@drawable/ic_voice_search"/>
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+
+            <ImageView
+                android:id="@+id/vtrs_volume_right_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/decibel_bar_transparent" />
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/stop_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:text="STOP"
+            android:textColor="#FF0000"
+            android:textSize="15dip" />
+    </LinearLayout>
+
+</LinearLayout>

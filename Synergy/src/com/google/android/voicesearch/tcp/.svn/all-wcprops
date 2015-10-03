@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp
+END
+StunAttributeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunAttributeType.java
+END
+StunMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunMessageType.java
+END
+StunPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunPacket.java
+END
+StunError.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunError.java
+END
+StunAttributeData.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunAttributeData.java
+END
+StunAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/tcp/StunAttribute.java
+END
