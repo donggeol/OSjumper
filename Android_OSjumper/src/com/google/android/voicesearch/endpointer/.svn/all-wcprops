@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer
+END
+MicrophoneInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/MicrophoneInputStream.java
+END
+EndpointerInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/EndpointerInputStream.java
+END
+AudioReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/AudioReader.java
+END
+ResampleInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/ResampleInputStream.java
+END
+FileLoopInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/FileLoopInputStream.java
+END
+AsyncClosableInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/android/!svn/ver/2352/mBizRecognition/src/com/google/android/voicesearch/endpointer/AsyncClosableInputStream.java
+END
